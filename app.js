@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
   res.setHeader('Content-Type', 'application/json');
   var response = new ServiceResponse(); 
 
-  var mode = process.env.ENVIRONENT;
+  var mode = process.env.ENVIRONMENT;
   if (mode === undefined) {
     mode = "dev";
   }

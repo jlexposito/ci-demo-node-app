@@ -11,6 +11,7 @@ app.get('/', function (req, res) {
   if (mode === undefined) {
     mode = "dev";
   }
+  response.environment=mode;
 
   res.json(response);
 

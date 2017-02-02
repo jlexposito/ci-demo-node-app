@@ -12,7 +12,6 @@ app.get('/', function (req, res) {
     mode = "dev";
   }
   response.environment=mode;
-
   res.json(response);
 
 })

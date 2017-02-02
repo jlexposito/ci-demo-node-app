@@ -25,6 +25,7 @@ app.listen(8080, function () {
 //Response Object
 var ServiceResponse = function (){
   this.environment = "none"
-  this.version = "1.1";
+  this.version = "1.2";
   this.timestamp = new Date();
+  this.updated = new Date("2017-02-02 17:00:");
 }
